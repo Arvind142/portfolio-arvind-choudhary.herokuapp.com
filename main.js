@@ -26,8 +26,8 @@ function scroll_Function_Custom() {
     //Get the button
     var mybutton = document.getElementById("backToTop");
 
-    if (document.body.scrollTop > 20
-        || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 30
+        || document.documentElement.scrollTop > 30) {
         mybutton.style.display = "block";
     } else {
         mybutton.style.display = "none";

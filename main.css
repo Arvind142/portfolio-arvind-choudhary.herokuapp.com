@@ -1,20 +1,15 @@
-body {
-  position: relative;
-  top: 60px;
-}
-
 h3 {
   font-family: monospace;
 }
 
 .image {
   position: relative;
-  left: 30px;
+  left: 2%;
 }
 
-#toggle {
+#toggler {
   position: relative;
-  left: 50px;
+  right: 2%;
 }
 
 #defaultPanel {
@@ -57,4 +52,9 @@ body,
 #backToTop:hover {
   background-color: #000000;
   /* Add a dark-grey background on hover */
+}
+
+.footer-custom{
+  position: absolute;
+  bottom: 50px;
 }

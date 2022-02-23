@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html>
 
 <head>
@@ -22,20 +22,20 @@
 
 <body>
     <!-- Nav-bar -->
-    <nav class="navbar fixed-top navbar-header opacity-20 ">
+    <nav class="navbar sticky-top opacity-20 ">
+        <!-- sticky-top -->
+        <!-- fixed-top navbar-header -->
 
         <img src="favicon.ico" alt="fav-icon" width="40" height="40" class="image top opacity-100">
 
         <button id="toggler" class="btn rounded-pill border opacity-100 switcher" onclick="theme_switcher(this)">
             <img src="/images/switch-theme.png" alt="switcher">
         </button>
-
-        </div>
     </nav>
     <!-- body -->
 
-    <h1 class="opacity-100" align="center">
-        <div>Hey!</div> I'm Arvind Choudhary
+    <h1 class="d-flex justify-content-around text-center">
+        Hey!<br /> I'm Arvind Choudhary
     </h1>
     <br />
     <br />
@@ -43,6 +43,11 @@
     <!--Actual Black BOX-->
 
     <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="btn" id="pills-default-tab" data-bs-toggle="pill" data-bs-target="#pills-default"
+                type="button" role="tab" aria-controls="pills-default" aria-selected="true"
+                hidden="true">&nbsp;</button>
+        </li>
         <li class="nav-item" role="presentation">
             <button class="btn" id="pills-about-tab" data-bs-toggle="pill" data-bs-target="#pills-about" type="button"
                 role="tab" aria-controls="pills-about" aria-selected="false" onmouseover="click(this)">About</button>
@@ -269,8 +274,14 @@
             </div>
         </div>
     </div>
-    <br />
-    <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
     <div class="container">
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -282,9 +293,10 @@
                             height="30"> </a></li>
                 <li class="nav-item"><a class="alert" href="https://github.com/Arvind142" target="_blank"><img
                             src="images/github.gif" class="rounded-circle img-fluid" alt="github" width="30"
-                            height="30"> </a></li>
+                            height="30">
+                    </a></li>
             </ul>
-            <p class="text-center text-muted">- Arvind Choudhary -</p>
+            <p class="text-center text-muted"> - Arvind Choudhary - </p>
         </footer>
     </div>
 
