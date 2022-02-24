@@ -1,6 +1,7 @@
 # robots.txt for http://arvind-choudhary.herokuapp.com/
 
 User-agent: *
-Disallow: /main.js
+Disallow: 
 Disallow: /page.html
 Disallow: /main.css
+Disallow: /main.js
